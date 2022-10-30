@@ -11,6 +11,11 @@
 
 
 # 1st Deliverable
+###1.1 Video Capture
+Αφού έγινε η εγκατάστηση του Processing , στην συνέχεια εγκαταστάθηκε η βιβλιοθήκη video και το gsstream. Μετά πήρα τον κώδικα του example 16_1 και στην συνέχεια άλλαξα το resolution σε 800x600
+
+###1.2 Video Recording
+
 
 
 # 2nd Deliverable
