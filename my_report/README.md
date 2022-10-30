@@ -34,6 +34,12 @@ void draw() {
 ```
 
 ### 1.3 QR code
+Δημιουργήθηκε ένα QRcode από [αυτό](https://qrcode.kaywa.com/) το site. Και στην συνέχεια μελοτώντας το [παράδειγμα 15_1](http://learningprocessing.com/examples/chp15/example-15-01-drawimage) χρησιμοποιήθηκε η εντολή
+```
+loadImage("argyris.png")
+```
+
+ώστε να φορτώνει το QR Code  με το που ανοίγει η εφαρμ0ογή!
 
 ### 1.4 QR Code - Camera read
 
