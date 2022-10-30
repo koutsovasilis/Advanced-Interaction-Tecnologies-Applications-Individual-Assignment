@@ -11,12 +11,33 @@
 
 
 # 1st Deliverable
-###1.1 Video Capture
+### 1.1 Video Capture
 Αφού έγινε η εγκατάστηση του Processing , στην συνέχεια εγκαταστάθηκε η βιβλιοθήκη video και το gsstream. Μετά πήρα τον κώδικα του example 16_1 και στην συνέχεια άλλαξα το resolution σε 800x600
 
-###1.2 Video Recording
+### 1.2 Video Recording
+Δημιούργησα ένα video 10'' με εμένα και το αποθήκευσα μέσα στον φάκελο data της εφαρμογής. Μετά στην συνάρτηση setup() δήλωσα το βίντεο και το path του και χρησιμοποίησα το loop για να παίζει σε λούπα.
 
+Μετά πήρα των κώδικα από το [παράδειγμα 16_2](http://learningprocessing.com/examples/chp16/example-16-02-ManipulateCapture)  και άλλαξα την μεταβλητή video σε 'movie' . Έτσι η συνάρτηση draw έγινε:
+```
+void draw() {
+  background(255);
 
+  // Tinting using mouse location
+  tint(mouseX, mouseY, 255);
+
+  // A video image can also be moved, rotated, tinted, resized just as with a PImage.
+  translate(width/2,height/2);
+  imageMode(CENTER);
+  rotate(PI/4);
+  image(movie, 0, 0, mouseX, mouseY);
+}
+```
+
+### 1.3 QR code
+
+### 1.4 QR Code - Camera read
+
+### 1.5 Augmented Reality
 
 # 2nd Deliverable
 
