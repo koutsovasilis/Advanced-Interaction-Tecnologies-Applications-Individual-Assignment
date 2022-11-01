@@ -42,6 +42,17 @@ loadImage("argyris.png")
 ώστε να φορτώνει το QR Code  με το που ανοίγει η εφαρμ0ογή!
 
 ### 1.4 QR Code - Camera read
+Για το 4ο παραδωτέο χρησιμοποιήθηκε ο κώδικας από το QRcodeExample και προστέθηκε το παρακάτω κομμάτι κώδικα ώστε όταν διαβάζει το QR μου τότε να ανοίγει σε λινκ το προφίλ μου στο github
+```
+if (runonce) { 
+   if (statusMsg.equals("https://github.com/koutsovasilis")) {
+    link("https://github.com/koutsovasilis");
+    runonce = false;
+  }
+ }
+ ```
+ 
+ Η μεταβλητή runonce δηλώθηκε ως boolean με αρχικοποίηση true. Όταν τρέξει μια φορά γυρνάει σε false και δεν ξανατρέχει το if statement.
 
 ### 1.5 Augmented Reality
 
