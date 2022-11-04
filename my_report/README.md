@@ -55,7 +55,19 @@ if (runonce) {
  Η μεταβλητή runonce δηλώθηκε ως boolean με αρχικοποίηση true. Όταν τρέξει μια φορά γυρνάει σε false και δεν ξανατρέχει το if statement.
 
 ### 1.5 Augmented Reality
-
+Για αυτό το παραδωτέο χρησιμοποιήθηκε ο κώδικας του παραδείγματος σε συνδιασμό με τον κώδικα για την ταινία. Προσθέθηκε αυτός ο κώδικας για να παίζει η ταινία όταν διαβάζει το λογότυπο Hiro
+```
+nya.beginTransform(0);
+   scale(0.1,0.1,1);
+    rotateZ(PI);
+    translate(0,0,20);
+   image(myMovie, -330, -160 , 850 , 650 );
+  nya.endTransform();
+   }
+   
+   void movieEvent(Movie m) {
+  m.read();
+```
 # 2nd Deliverable
 
 
